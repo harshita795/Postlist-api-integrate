@@ -111,9 +111,9 @@ const PostList = () => {
                 <TableRow key={post.id}>
                   <TableCell>{post.id}</TableCell>
                   <TableCell sx={{ textTransform: 'capitalize' }}>{post.title}</TableCell>
-                  <Hidden smDown>
-                    <TableCell sx={{ textTransform: 'capitalize' }}>{post.body}</TableCell>
-                  </Hidden>
+                  {/* <Hidden smDown> */}
+                  <TableCell sx={{ textTransform: 'capitalize' }}>{post.body}</TableCell>
+                  {/* </Hidden> */}
                 </TableRow>
               ))}
             </TableBody>
