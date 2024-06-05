@@ -92,7 +92,7 @@ const PostList = () => {
         </Toolbar>
       </AppBar>
       <Box sx={{ my: 2 }}>
-        <TableContainer component={Paper} sx={{ borderRadius: 2, overflow: 'hidden' }}>
+        <TableContainer component={Paper} sx={{ borderRadius: 2, overflow: 'auto' }}>
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
             <TableHead sx={{ bgcolor: 'grey.500' }}>
               <TableRow>
