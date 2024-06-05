@@ -98,9 +98,9 @@ const PostList = () => {
               <TableRow>
                 <TableCell sx={{ color: 'white' }}>ID</TableCell>
                 <TableCell sx={{ color: 'white' }}>Title</TableCell>
-                <Hidden smDown>
-                  <TableCell sx={{ color: 'white' }}>Content</TableCell>
-                </Hidden>
+                {/* <Hidden smDown> */}
+                <TableCell sx={{ color: 'white' }}>Content</TableCell>
+                {/* </Hidden> */}
               </TableRow>
             </TableHead>
             <TableBody>
